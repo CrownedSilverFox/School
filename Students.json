@@ -1,50 +1,90 @@
 [
   {
-    "name": "Иван",
-    "middle_name": "Игоревич",
     "surname": "Иванов",
+    "birth_day": "12.07.1998",
+    "middle_name": "Игоревич",
+    "name": "Иван",
     "school": "67 школа",
-    "class": "5 А",
-    "birth_day": "12.07.1998"
+    "class": "5 А"
   },
   {
-    "name": "Александр",
-    "middle_name": "Петрович",
     "surname": "Красный",
-    "school": "12 гимназия",
-    "class": "6 А",
-    "birth_day": "01.12.1997"
-  },
-  {
-    "name": "Матвей",
-    "middle_name": "Степанович",
-    "surname": "Петров",
-    "school": "12 гимназия",
-    "class": "6 А",
-    "birth_day": "10.02.1997"
-  },
-  {
-    "name": "Артем",
-    "middle_name": "Валерьевич",
-    "surname": "Кузин",
-    "school": "12 гимназия",
-    "class": "7 Г",
-    "birth_day": "10.02.1995"
-  },
-  {
-    "name": "Петр",
-    "middle_name": "Исаакович",
-    "surname": "Рузенштерн",
-    "school": "12 гимназия",
-    "class": "6 Г",
-    "birth_day": "21.05.1996"
-  },
-  {
+    "birth_day": "01.12.1997",
+    "middle_name": "Петрович",
     "name": "Александр",
-    "middle_name": "Валерьевич",
-    "surname": "Кузин",
     "school": "12 гимназия",
-    "class": "8 Д",
-    "birth_day": "21.05.1994"
+    "class": "6 А"
+  },
+  {
+    "surname": "Петров",
+    "birth_day": "10.02.1997",
+    "middle_name": "Степанович",
+    "name": "Матвей",
+    "school": "12 гимназия",
+    "class": "6 А"
+  },
+  {
+    "surname": "Кузин",
+    "birth_day": "10.02.1995",
+    "middle_name": "Валерьевич",
+    "name": "Артем",
+    "school": "12 гимназия",
+    "class": "7 Г"
+  },
+  {
+    "surname": "Рузенштерн",
+    "birth_day": "21.05.1996",
+    "middle_name": "Исаакович",
+    "name": "Петр",
+    "school": "12 гимназия",
+    "class": "6 Г"
+  },
+  {
+    "surname": "Кузин",
+    "birth_day": "21.05.1994",
+    "middle_name": "Валерьевич",
+    "name": "Александр",
+    "school": "12 гимназия",
+    "class": "8 Д"
+  },
+  {
+    "surname": "Масляков",
+    "birth_day": "12.07.1993",
+    "middle_name": "Александрович",
+    "name": "Георгий",
+    "school": "67 школа",
+    "class": "10 А"
+  },
+  {
+    "surname": "Поляков",
+    "birth_day": "15.10.1994",
+    "middle_name": "Юриевич",
+    "name": "Константин",
+    "school": "72 гимназия",
+    "class": "9 Б"
+  },
+  {
+    "surname": "Анчарский",
+    "birth_day": "01.01.1993",
+    "middle_name": "Васильевич",
+    "name": "Алексей",
+    "school": "67 школа",
+    "class": "10 А"
+  },
+  {
+    "surname": "Анчарская",
+    "birth_day": "10.11.1995",
+    "middle_name": "Сергеевна",
+    "name": "Анна",
+    "school": "72 гимназия",
+    "class": "8 В"
+  },
+  {
+    "surname": "Викторов",
+    "birth_day": "19.09.1999",
+    "middle_name": "Викторович",
+    "name": "Виктор",
+    "school": "67 школа",
+    "class": "4 А"
   }
 ]
