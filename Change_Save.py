@@ -96,8 +96,9 @@ std_fl.close()
 class_del_list = ['6 Б', '6 Г']
 teacher_classes_del = 'Владимир Сергеевич Вышкин'
 teachers = json.load(open('Teachers.json'))
+teacher_index = get_index(teachers, teacher_classes_del)
 for class_del in class_del_list:
-    teachers[get_index(teachers, teacher_classes_del)]['class'].remove(class_del)
+    teachers[teacher_index]['class'].remove(class_del)
 tchr_fl = open('Teachers.json', 'w')
 tchr_fl.write(json.dumps(teachers, ensure_ascii=False))
 tchr_fl.close()
