@@ -7,22 +7,32 @@ def get_index(data, f_name):
             return data.index(human)
 
 
+def get_last_id(data):
+    id_list = [int(human['id']) for human in data]
+    return max(id_list)
+
+
 students = json.load(open('Students_id.json'))
 students.append({
     "name": "Георгий", "middle_name": "Александрович",
-    "surname": "Масляков", "school": "67 школа", "class": "10 А", "birth_day": "12.07.1993"})
+    "surname": "Масляков", "school": "67 школа", "class": "10 А", "birth_day": "12.07.1993",
+    'id': get_last_id(students)+1})
 students.append({
     "name": "Константин", "middle_name": "Юриевич",
-    "surname": "Поляков", "school": "72 гимназия", "class": "9 Б", "birth_day": "15.10.1994"})
+    "surname": "Поляков", "school": "72 гимназия", "class": "9 Б", "birth_day": "15.10.1994",
+    'id': get_last_id(students)+1})
 students.append({
     "name": "Алексей", "middle_name": "Васильевич",
-    "surname": "Анчарский", "school": "67 школа", "class": "10 А", "birth_day": "01.01.1993"})
+    "surname": "Анчарский", "school": "67 школа", "class": "10 А", "birth_day": "01.01.1993",
+    'id': get_last_id(students)+1})
 students.append({
     "name": "Анна", "middle_name": "Сергеевна",
-    "surname": "Анчарская", "school": "72 гимназия", "class": "8 В", "birth_day": "10.11.1995"})
+    "surname": "Анчарская", "school": "72 гимназия", "class": "8 В", "birth_day": "10.11.1995",
+    'id': get_last_id(students)+1})
 students.append({
     "name": "Виктор", "middle_name": "Викторович",
-    "surname": "Викторов", "school": "67 школа", "class": "4 А", "birth_day": "19.09.1999"})
+    "surname": "Викторов", "school": "67 школа", "class": "4 А", "birth_day": "19.09.1999",
+    'id': get_last_id(students)+1})
 
 std_fl = open('Students_id.json', 'w')
 std_fl.write(json.dumps(students, ensure_ascii=False))
@@ -39,7 +49,8 @@ teachers.append({
       "4 Б",
       "10 А"
     ],
-    "birth_day": "02.09.1950"
+    "birth_day": "02.09.1950",
+    'id': get_last_id(teachers)+1
   })
 teachers.append({
     "name": "Алексей",
@@ -51,7 +62,8 @@ teachers.append({
       "4 Б",
       "10 А"
     ],
-    "birth_day": "02.09.1950"
+    "birth_day": "02.09.1950",
+    'id': get_last_id(teachers)+1
   })
 
 tchr_fl = open('Teachers_id.json', 'w')
