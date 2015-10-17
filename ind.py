@@ -3,8 +3,9 @@ import json
 
 def check(human, values):
     for key in values.keys():
-        if (values[key] == human[key]) or (values[key] in human[key]):
-            return True
+        if not values[key] in human[key]:
+            return
+    return True
 
 
 def get_id_list(data, **kwargs):
@@ -25,4 +26,7 @@ print(['%s %s %s' % (student['surname'], student['name'], student['middle_name']
        if student['id'] in sur_id_list])
 
 #3
-print(get_id_list(teachers, class_room='7 В'))
+print(get_id_list(students, surname='и'))
+
+#4
+print(get_id_list(teachers, class_room='7 '))
